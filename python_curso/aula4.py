@@ -16,6 +16,11 @@ print(1.9)
 
 print()
 
-# A funcao 'type' mostra o tipo que  Python inferiu ao valor
+# A classe / função 'type' mostra o tipo que  Python inferiu ao valor
 # Exemplo :
+print(type('dimas'))
+print(type(100))
+print(type(1.5))
+
+print()
 
