@@ -26,3 +26,14 @@ print(bool(''))
 
 print(type(bool(' ')))
 print(bool(' '))
+
+# Convertendo numero para str
+ # print(11 + 'b')
+
+# Traceback (most recent call last):
+#   File "d:\vsCode\curso_python\Python\python_curso\aula6.py", line 31, in <module>
+#     print(11 + 'b')
+#           ~~~^~~~~
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+print(str(11) + 'b')
