@@ -2,7 +2,13 @@
 nome = 'Edmar'
 sobrenome = 'Marcelino'
 idade = 41
-ano_nascimento = '24/04/1982'
+# ano_nascimento = '24/04/1982'
+# maior_de_idade = True
+
+#outra opção
+ano_nascimento = 2023 - idade
+maior_de_idade = idade >= 18
+
 maior_de_idade = True
 altura_metros = 1.79
 
