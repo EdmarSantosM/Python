@@ -20,3 +20,9 @@ print(int('1'),type(int('1')))
 # Convertendo a str '1' para float
 print(float('1') + 1)
 print(float('1.2') + 1)
+
+print(type(bool('')))
+print(bool(''))
+
+print(type(bool(' ')))
+print(bool(' '))
