@@ -15,3 +15,7 @@ print(soma_de_dois_mais_dois)
 
 nome_completo = 'Edmar Santos'
 print(nome_completo) #Edmar Santos
+
+nome = 'Santos'
+idade = 20
+print('Nome:', nome, 'Idade:', idade)
