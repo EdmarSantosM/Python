@@ -9,7 +9,6 @@ idade = 41
 ano_nascimento = 2023 - idade
 maior_de_idade = idade >= 18
 
-maior_de_idade = True
 altura_metros = 1.79
 
 print('Nome:', nome)
