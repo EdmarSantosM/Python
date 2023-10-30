@@ -11,7 +11,9 @@ print('... ', '# Ellipsis')
 print()
 
 # calcular o IMC
-imc = peso / (altura * altura)
+# imc = peso / (altura * altura)
+
+imc = peso / altura ** 2
 
 hifen = '-' * 60
 
