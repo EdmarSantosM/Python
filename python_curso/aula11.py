@@ -15,3 +15,11 @@ conta_com_precedencia = (1 + 1) ** (5 + 5) # resultado 1024
 print(conta_com_precedencia)
 
 print()
+
+#conta_2 = (1 + int(0.5 + 0.5)) ** 5 + 5 # resultado 37
+
+#conta_2 = 1 + int(0.5 + 0.5) # resultado 2
+
+conta_2 = (1 + int(0.5+0.5)) ** (5 + 5) # resultado 1024
+
+print(conta_2)
