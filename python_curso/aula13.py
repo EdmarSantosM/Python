@@ -12,7 +12,7 @@ asteristico = '*' * 80
 
 print(asteristico)
 
-print(f'{nome} {sobrenome} tenho {idade} anos meu peso altual é {peso}kg e minha  altura {altura:.2f}')
+print(f'{nome} {sobrenome} tenho {idade} anos meu peso atual é {peso}kg e minha  altura {altura:.2f}')
 print(f'Meu imc é {imc:.2f}')
 
 print(asteristico)
