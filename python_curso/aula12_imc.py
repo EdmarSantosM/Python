@@ -24,4 +24,10 @@ print('Meu IMC é de ' + str(imc))
 
 print(hifen)
 
+print(nome, 'tem', altura, 'de altura')
+print('Pesa', peso , 'quilos' )
+print('e seu imc é',imc)
+
+print(hifen)
+
 print()
