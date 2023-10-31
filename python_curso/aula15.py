@@ -23,7 +23,16 @@ print()
 
 # print(f'A soma dos numeros {numero_1 + numero_2}') # Neste  caso sera  concatenado os valores
 
-# Pode fazer, porém não é boa prática
+# Pode fazer, porém não é boa prática (Type Casting)
+
+# Pois  quebra o programa logo de inicio, não permitindo o desenvolvedor fazer a chegagem
+
+    # Traceback (most recent call last):
+    #   File "d:\vsCode\curso_python\Python\python_curso\aula15.py", line 27, in <module>
+    #     numero_1 = int(input('Digite um número: '))
+    #                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    # ValueError: invalid literal for int() with base 10: 'a'
+
 numero_1 = int(input('Digite um número: '))
 numero_2 = int(input('Digite outro número'))
 
