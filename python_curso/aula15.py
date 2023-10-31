@@ -10,10 +10,9 @@ print(f'O seu nome é {nome}')
 
 print()
 
-nome2 = input('Digite seu nome :')
+nome2 = input('Digite seu nome:')
 
 print()
 
-print(f'Olá !{nome2=}')
+print(f'Olá!{nome2=}')
 
-print(nome2)
