@@ -18,12 +18,25 @@ print(f'Olá!{nome2=}')
 
 print()
 
-# numero_1 = input('Digite um número: ')
-# numero_2 = input('Digite outro número: ')
+#  (variable) numero_1: Literal['Digite um número: ']
+
+# numero_1 = ('Digite um número: ')
+# numero_2 = ('Digite outro número: ')
 
 # print(f'A soma dos numeros {numero_1 + numero_2}') # Neste  caso sera  concatenado os valores
 
+
+
 # Pode fazer, porém não é boa prática (Type Casting)
+
+
+numero_1 = int(input('Digite um número: '))
+numero_2 = int(input('Digite outro número'))
+
+print()
+
+print(f'A soma de {numero_1 + numero_2}')
+
 
 # Pois  quebra o programa logo de inicio, não permitindo o desenvolvedor fazer a chegagem
 
@@ -33,12 +46,9 @@ print()
     #                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     # ValueError: invalid literal for int() with base 10: 'a'
 
-numero_1 = int(input('Digite um número: '))
-numero_2 = int(input('Digite outro número'))
+    # Usuário digitou o caracter 'a'
 
-print()
-
-print(f'A soma de {numero_1 + numero_2}')
+ 
 
 
 
