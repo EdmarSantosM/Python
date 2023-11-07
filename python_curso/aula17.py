@@ -1,4 +1,6 @@
 
+#fluxo
+
 condicao1 = False
 condicao2 = False
 condicao3 = True
@@ -27,5 +29,6 @@ if 10 == 10:
     print()
 
     print('Fora do fluxo')
+
 
 
