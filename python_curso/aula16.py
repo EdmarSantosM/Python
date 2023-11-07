@@ -6,8 +6,11 @@
 entrada = input('Você quer "entrar" ou "sair"? ')
 
 if entrada == 'entrar':  
+    print("BLOCO DO IF")
     print('Você entrou no sistema')
 elif entrada == 'sair':
+    print("BLOCO DO ELIF")
     print('Você saiu do sistema')
 else:
+    print("BLOCO DO ELSE")
     print('Você não digitou nem entrar e nem sair !')
