@@ -69,3 +69,8 @@ if senha_01 != '123456':
  #   print('Senha correta')
 # else:
    print('Senha incorreta')  
+
+print(hifen)
+print(not True)
+print(not False)
+print(hifen)
