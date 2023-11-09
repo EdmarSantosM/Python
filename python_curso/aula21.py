@@ -20,3 +20,13 @@ else:
     print()
     print('Sair do console')
     print()
+
+
+# Avaliacao curto circuito
+hifen = ' - ' * 10
+print() 
+print(hifen)
+print( '\t',True and False and True)
+print('\t',True and 0 and True)
+print(hifen)   
+print()
