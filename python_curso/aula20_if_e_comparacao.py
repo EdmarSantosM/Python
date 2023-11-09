@@ -29,18 +29,6 @@ else :
     print(f'Primeiro valor digitado "{primeiro_valor}" e Segundo valor digitado "{segundo_valor}" são iguais')
     print(hifen)
     print()
-# elif( primeiro_valor == '') or (segundo_valor == ''):
-#     print()
-#     print(hifen)
-#     print('Valor não identificado')
-#     print(hifen)
-#     print() 
-# else:
-#     print()
-#     print(hifen)
-#     print()
-#     print(hifen)
-#     print()   
 
 
 
