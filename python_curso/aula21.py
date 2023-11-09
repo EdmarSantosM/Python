@@ -55,3 +55,17 @@ print(hifen)
 print()
 
 
+# Utilizando o operador 'not'
+# Usado para inverter valores (expressoes)
+
+# not False = True
+# Not True =  False
+
+# Exemplo 01
+
+senha_01 = input('Senha : ')
+
+if senha_01 != '123456':
+ #   print('Senha correta')
+# else:
+   print('Senha incorreta')  
