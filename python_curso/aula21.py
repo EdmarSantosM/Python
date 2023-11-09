@@ -7,9 +7,12 @@
 
 # O tipo None que e usado para representar um 'nao valor'
 
-entrada = input('[E]ntrar [S]air ')
+senha_cadastrada = '123456'
 
-if(entrada == 'E'):
+entrada = input('[E]ntrar [S]air ')
+senha_digitada = input('Senha :')
+
+if(entrada == 'E' and senha_digitada == senha_cadastrada):
     print()
     print('Entrar no console')
     print()
