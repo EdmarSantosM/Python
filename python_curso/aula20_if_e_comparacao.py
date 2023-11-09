@@ -22,7 +22,8 @@ elif( segundo_valor > primeiro_valor):
     print(f'Segundo valor digitado é "{segundo_valor}"  maior que o Primeiro Valor digitado "{primeiro_valor}"') 
     print(hifen)
     print()   
-elif( primeiro_valor == segundo_valor) or (segundo_valor == primeiro_valor):
+else :
+    (primeiro_valor == segundo_valor) or (segundo_valor == primeiro_valor)
     print()
     print(hifen)
     print(f'Primeiro valor digitado "{primeiro_valor}" e Segundo valor digitado "{segundo_valor}" são iguais')
@@ -34,12 +35,12 @@ elif( primeiro_valor == segundo_valor) or (segundo_valor == primeiro_valor):
 #     print('Valor não identificado')
 #     print(hifen)
 #     print() 
-else:
-    print()
-    print(hifen)
-    print()
-    print(hifen)
-    print()   
+# else:
+#     print()
+#     print(hifen)
+#     print()
+#     print(hifen)
+#     print()   
 
 
 
