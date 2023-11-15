@@ -28,3 +28,14 @@ print(f'{variavel}')
 print(f'{variavel: >10}')
 print(f'{variavel: <10}')
 print(f'{variavel:$^10}')
+print()
+
+print(f'{1000.4873648123746}')
+print(f'{100.4873648123746:,.1f}')
+print(f'{100.4873648123746:,.13}')
+print(f'{100.4873648123746:+,.1f}')
+print(f'{100.4873648123746:0=+12,.1f}') # Força o número aparecer antes do zero
+
+print()
+
+print(f'O Hexadecimal de 1500 é {1500:08x}')
