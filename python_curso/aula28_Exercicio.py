@@ -29,7 +29,7 @@ idade = int(input('Digite sua idade : '))
 print()
 print(hifen)
 
-if( nome != "" and idade != ""):
+if( nome != "") and (idade != ""):
     print()
     print(f'Nome invertido :', nome[::-1].upper())
     print()
@@ -39,4 +39,7 @@ if( nome != "" and idade != ""):
     print()
     print(f'A última letra do seu nome :' ,(nome[4:5]))
     print()
-
+elif ( nome == "") or (idade != 41):
+    print()
+    print(f'Desculpe você deixou campo {(nome)} ou  o campo {(idade)} vazios')
+    print()
