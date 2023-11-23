@@ -34,4 +34,9 @@ if( nome != "" and idade != ""):
     print(f'Nome invertido :', nome[::-1].upper())
     print()
     print(f'Seu nome tem :', {len(nome)} , 'letras')
+    print()
+    print(f'A primeira letra do seu nome :',(nome[:1]))
+    print()
+    print(f'A última letra do seu nome :' ,(nome[4:5]))
+    print()
 
